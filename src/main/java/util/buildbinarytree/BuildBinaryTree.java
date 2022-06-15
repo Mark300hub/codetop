@@ -1,9 +1,8 @@
-package offer._037SerializeAndDeserializeBinaryTree;
+package util.buildbinarytree;
 
 import util.treenode.TreeNode;
 
 import java.util.ArrayDeque;
-import java.util.Arrays;
 import java.util.Deque;
 import java.util.LinkedList;
 
@@ -14,7 +13,7 @@ import java.util.LinkedList;
  * @create : 2022-06-07 08:12
  **/
 // 层序遍历
-public class Solution {
+public class BuildBinaryTree {
     // Encodes a tree to a single string.
     public String serialize(TreeNode root) {
         Deque<TreeNode> deque = new LinkedList<>();
